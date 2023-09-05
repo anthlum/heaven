@@ -1,0 +1,42 @@
+{
+  "name": "heaven-hazard",
+  "version": "1.0.0",
+  "description": "Always check if the planet will be hit",
+  "main": "index.js",
+  "keywords": [],
+  "author": "AnthlumSMC",
+  "license": "MIT",
+  "browserslist": [
+    "last 1 Chrome versions"
+  ],
+  "targets": {
+    "main": false
+  },
+  "scripts": {
+    "test": "node tests/*.js",
+    "dev": "parcel serve src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "axios": "^1.5.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^8.48.0",
+    "eslint-plugin-react": "^7.33.2",
+    "parcel": "^2.9.3",
+    "postcss-preset-env": "^9.1.2",
+    "prettier": "^3.0.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "date-fns": "^2.30.0",
+    "format-number": "^3.0.0",
+    "react": "^18.2.0",
+    "react-async-hook": "^4.0.0",
+    "react-dom": "^18.2.0"
+  },
+  "@parcel/transformer-css": {
+    "drafts": {
+      "nesting": true
+    }
+  }
+}
